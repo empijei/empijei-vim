@@ -13,10 +13,12 @@ if exists("b:current_syntax")
 	finish
 endif
 
-syn match Filename "^[^:]*:\d*:" contains=Lineno
-syn match Lineno "\d*:" contained
+syn match Filename "^[^:]*:\d*:" contains=Lineno,Colon
+syn match Lineno "\d*" contained
+syn match Colon ":" contained
 
 let b:current_syntax = "quickfix"
 
-hi link Filename	PreProc
-hi link Lineno	Type
+hi link Filename		PreProc
+hi link Lineno			Type
+hi link Colon 			Comment
