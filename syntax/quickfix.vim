@@ -13,8 +13,8 @@ if exists("b:current_syntax")
 	finish
 endif
 
-syn match Filename "\v^[^:]*:"
-syn match Lineno "\d*:"
+syn match Filename "^[^:]*:\d*:" contains=Lineno
+syn match Lineno "\d*:" contained
 
 let b:current_syntax = "quickfix"
 
