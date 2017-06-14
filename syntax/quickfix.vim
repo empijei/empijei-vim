@@ -14,7 +14,7 @@ if exists("b:current_syntax")
 endif
 
 syn match Filename "^[^:]*:\d*:" contains=Lineno,Colon
-syn match Lineno "\d*" contained
+syn match Lineno ":\@<=\d*" contained
 syn match Colon ":" contained
 
 let b:current_syntax = "quickfix"
