@@ -71,7 +71,7 @@ hi Visual cterm=NONE ctermbg=yellow ctermfg=black
 hi SpellBad cterm=NONE ctermfg=black ctermbg=red
 hi SpellCap cterm=NONE ctermfg=white ctermbg=blue
 hi MatchParen cterm=NONE ctermbg=black ctermfg=yellow
-hi CursorLine cterm=NONE ctermbg=darkgrey
+hi CursorLine cterm=NONE ctermbg=black
 hi SpecialKey	ctermfg=darkgreen
 hi NonText	cterm=bold ctermfg=darkblue
 hi Directory	ctermfg=darkcyan
@@ -79,7 +79,7 @@ hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
 hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
 hi MoreMsg	ctermfg=darkgreen
 hi ModeMsg	cterm=NONE ctermfg=brown
-hi LineNr	ctermfg=3
+hi LineNr	ctermfg=brown
 hi Question	ctermfg=green
 hi StatusLine	cterm=bold,reverse
 hi StatusLineNC cterm=reverse
@@ -98,7 +98,7 @@ hi Comment	ctermfg=darkcyan
 hi Constant	ctermfg=red
 hi Special	ctermfg=5
 hi Identifier	ctermfg=6
-hi Statement	ctermfg=3
+hi Statement	ctermfg=brown
 hi PreProc	ctermfg=5
 hi Type		ctermfg=2
 hi Underlined	cterm=underline ctermfg=5
