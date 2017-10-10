@@ -71,7 +71,7 @@ hi Visual cterm=NONE ctermbg=yellow ctermfg=black
 hi SpellBad cterm=NONE ctermfg=black ctermbg=red
 hi SpellCap cterm=NONE ctermfg=white ctermbg=blue
 hi MatchParen cterm=NONE ctermbg=black ctermfg=yellow
-hi CursorLine cterm=NONE ctermbg=black
+hi CursorLine cterm=NONE ctermbg=0
 hi SpecialKey	ctermfg=darkgreen
 hi NonText	cterm=bold ctermfg=darkblue
 hi Directory	ctermfg=darkcyan
@@ -88,8 +88,8 @@ hi Title	ctermfg=5
 hi VisualNOS	cterm=bold,underline
 hi WarningMsg	ctermfg=1
 hi WildMenu	ctermfg=0 ctermbg=3
-hi Folded	ctermfg=darkgrey ctermbg=NONE
-hi FoldColumn	ctermfg=darkgrey ctermbg=NONE
+hi Folded	ctermfg=0 ctermbg=NONE
+hi FoldColumn	ctermfg=0 ctermbg=NONE
 hi DiffAdd	ctermbg=4
 hi DiffChange	ctermbg=5
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
@@ -103,5 +103,5 @@ hi PreProc	ctermfg=5
 hi Type		ctermfg=2
 hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
-hi Ignore	ctermfg=darkgrey
+hi Ignore	ctermfg=0
 hi Error	cterm=bold ctermfg=7 ctermbg=1
