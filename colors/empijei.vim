@@ -72,7 +72,7 @@ hi SpellBad cterm=NONE ctermfg=black ctermbg=red
 hi SpellCap cterm=NONE ctermfg=white ctermbg=blue
 hi MatchParen cterm=NONE ctermbg=black ctermfg=yellow
 hi CursorLine cterm=NONE ctermbg=0
-hi SpecialKey	ctermfg=darkgreen
+hi SpecialKey	ctermfg=0
 hi NonText	cterm=bold ctermfg=darkblue
 hi Directory	ctermfg=darkcyan
 hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
@@ -105,3 +105,12 @@ hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=0
 hi Error	cterm=bold ctermfg=7 ctermbg=1
+
+"0 darkgrey
+"1 red
+"2 green
+"3 yellow
+"4 blue
+"5 purple
+"6 cyan
+"7 white
