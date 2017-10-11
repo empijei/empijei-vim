@@ -72,7 +72,7 @@ hi SpellBad cterm=NONE ctermfg=black ctermbg=red
 hi SpellCap cterm=NONE ctermfg=white ctermbg=blue
 hi MatchParen cterm=NONE ctermbg=black ctermfg=yellow
 hi CursorLine cterm=NONE ctermbg=0
-hi SpecialKey	ctermfg=0
+hi SpecialKey	ctermfg=darkblue
 hi NonText	cterm=bold ctermfg=darkblue
 hi Directory	ctermfg=darkcyan
 hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
