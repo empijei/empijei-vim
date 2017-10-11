@@ -78,7 +78,7 @@ hi Directory	ctermfg=darkcyan
 hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
 hi IncSearch	cterm=NONE ctermfg=black ctermbg=yellow
 hi MoreMsg	ctermfg=darkgreen
-hi ModeMsg	cterm=NONE ctermfg=brown
+hi ModeMsg	cterm=bold ctermfg=grey
 hi LineNr	ctermfg=brown
 hi Question	ctermfg=green
 hi StatusLine	cterm=bold,reverse
