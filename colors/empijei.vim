@@ -65,7 +65,7 @@ hi Todo		guifg=orangered guibg=yellow2
 
 " color terminal definitions
 
-hi ColorColumn ctermbg=blue
+hi ColorColumn ctermbg=black
 hi Search cterm=NONE ctermbg=green ctermfg=black
 hi Visual cterm=NONE ctermbg=yellow ctermfg=black
 hi SpellBad cterm=NONE ctermfg=black ctermbg=red
